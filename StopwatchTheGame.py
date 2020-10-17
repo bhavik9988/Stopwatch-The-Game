@@ -1,7 +1,7 @@
-# Implementation of "Stopwatch: The Game"
+# Implementation of "Stopwatch:The Game"
 import simplegui
 
-# define global variables
+# define global variables!
 IsRunning = False
 Counter, GoodStop, TotalStop = 0, 0, 0
 
@@ -58,5 +58,5 @@ frame.add_button("Reset", reset, 120)
 frame.set_draw_handler(draw)
 timer = simplegui.create_timer(100, tick)
 
-# start frame
+# start frame!
 frame.start()
