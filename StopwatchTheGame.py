@@ -38,17 +38,17 @@ def reset():
     IsRunning = False
     Counter, GoodStop, TotalStop = 0, 0, 0
 
-# define event handler for timer with 0.1 sec interval
+# define event handler for timer with 0.1 sec interval!
 def tick():
     global Counter
     Counter += 1
 
-# define draw handler
+# define draw handler!
 def draw(canvas):
     canvas.draw_text(format(Counter), [60, 85], 36, "White")
     canvas.draw_text(score(), [155, 25], 26, "Green")
     
-# create frame
+# create frame!
 frame = simplegui.create_frame("Stopwatch", 200, 150)
 
 # register event handlers
@@ -58,5 +58,5 @@ frame.add_button("Reset", reset, 120)
 frame.set_draw_handler(draw)
 timer = simplegui.create_timer(100, tick)
 
-# start frame!
+# start frame.
 frame.start()
