@@ -58,5 +58,5 @@ frame.add_button("Reset", reset, 120)
 frame.set_draw_handler(draw)
 timer = simplegui.create_timer(100, tick)
 
-# start frame.
+# start frasddrererfme.
 frame.start()
