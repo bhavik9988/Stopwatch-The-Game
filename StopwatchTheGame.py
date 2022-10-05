@@ -38,7 +38,7 @@ def reset():
     IsRunning = False
     Counter, GoodStop, TotalStop = 0, 0, 0
 
-# define event handler for timer with 0.1 sec interval!
+# define event handler for timer with 0.1 sec interval! and you are ready to go.
 def tick():
     global Counter
     Counter += 1
